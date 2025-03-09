@@ -1,9 +1,12 @@
 #include <iostream>
+#include <Windows.h>
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    SetConsoleOutputCP(1252);
+    cout << "Vive l'été!" << endl << flush;
+    cin.get();
     return 0;
 }
